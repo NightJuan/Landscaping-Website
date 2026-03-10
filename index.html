@@ -1,18 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <title>FC Landscaping</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="FC Landscaping provides professional landscaping services including lawn care, garden design, and yard maintenance." />
+  <link rel="stylesheet" href="index.css" />
+  <title>FC Landscaping</title>
 </head>
 <body>
-    <nav>
-        <img src="Images/" alt="Logo">
-        <p>Home</p>
-        <p>About</p>
-        <p>Services</p>
-        <p>Contact</p>
-    </nav>
+  <div class="grid-container">
+    
+    <header class="item full-width header">
+        <div class="logo-container">
+            <img src="Images/logo.png" alt="FC Landscaping logo" class="logo" />
+        </div>
+
+        <nav class="nav-links">
+            <a href="#services">Services</a>
+            <a href="#contact">Contact Us</a>
+        </nav>
+    </header>
+
+    <main class="item full-width hero">
+        <section>
+            <h1>FC Landscaping Services</h1>
+            <p>
+            Reliable landscaping services to keep your property clean, healthy,
+            and looking its best.
+            </p>
+            <a href="#contact" class="btn">Contact Us</a>
+        </section>
+    </main>
+
+    <section id="services" class="item full-width services-section">
+        <h2>Our Services</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <img src="Images/" alt="Cutting Lawn">
+                <h3>Lawn Maintenance</h3>
+                <p>Mowing, edging, trimming, and regular lawn care.</p>
+            </div>
+
+            <div class="service-card">
+                <img src="" alt="">
+                <h3>Garden Design</h3>
+                <p>Custom planting and design to improve your outdoor space.</p>
+            </div>
+
+            <div class="service-card">
+                <h3>Yard Cleanup</h3>
+                <p>Seasonal cleanups, leaf removal, and debris clearing.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="item full-width contact-section">
+        <h2>Contact Us</h2>
+        <p>Call or message us today for a free estimate.</p>
+        <p><strong>Phone:</strong> (123) 456-7890</p>
+        <p><strong>Email:</strong> fclandscaping@email.com</p>
+    </section>
+
+    <footer class="item full-width footer">
+        <div class="footer-logo">
+            <img src="Images/logo.png" alt="FC Landscaping logo" class="logo" />
+        </div>
+
+        <p>Copyright © 2026 FC Landscaping</p>
+
+        <div class="social-icons">
+            <a href="#" aria-label="Facebook">
+                <img src="Images/facebook.png" alt="Facebook icon" />
+            </a>
+            <a href="#" aria-label="Instagram">
+                <img src="Images/instagram.png" alt="Instagram icon" />
+            </a>
+            <a href="#" aria-label="LinkedIn">
+                <img src="Images/linkedin.png" alt="LinkedIn icon" />
+            </a>
+        </div>
+    </footer>
+  </div>
 </body>
 </html>
