@@ -58,6 +58,7 @@ body {
 /* HERO SECTION */
 .hero {
     padding: 0px;
+    margin-bottom: 15rem;
 }
 
 .hero-grid {

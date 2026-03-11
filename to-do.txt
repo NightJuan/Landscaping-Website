@@ -1,0 +1,65 @@
+
+
+FC Landscaping Website – Development To-Do List
+
+HEADER
+[ ] Add separate HTML pages (Services, Contact, About)
+[ ] Ensure navigation links point to correct pages
+[ ] Add active page highlighting in navigation
+[ ] Optimize logo image
+[ ] Add mobile navigation / hamburger menu
+
+HERO SECTION
+[ ] Improve hero text spacing
+[ ] Optimize hero background image size
+[ ] Test clip-path design across browsers
+[ ] Ensure CTA button scrolls to contact section
+
+SERVICES SECTION
+[ ] Confirm service icons are consistent size
+[ ] Improve card spacing for mobile
+[ ] Add hover effect for service cards
+[ ] Consider adding more service descriptions
+
+ANIMATIONS
+[ ] Add hero section entrance animation
+[ ] Add hover animation for service cards
+[ ] Add button hover animation for CTA buttons
+[ ] Add subtle scroll animations for sections
+[ ] Ensure animations are smooth and not performance heavy
+[ ] Test animations on mobile devices
+
+CONTACT SECTION
+[ ] Make phone number clickable (tel: link)
+[ ] Make email clickable (mailto: link)
+[ ] Add contact form (name, email, message)
+[ ] Connect contact form to email or form service
+
+FOOTER
+[ ] Add real Facebook and Instagram links
+[ ] Ensure footer logo matches header dimensions
+[ ] Test footer responsiveness on mobile
+
+SEO
+[ ] Verify meta description
+[ ] Add Open Graph tags
+[ ] Add sitemap.xml
+[ ] Add robots.txt
+[ ] Submit site to Google Search Console
+
+PERFORMANCE
+[ ] Compress hero image
+[ ] Compress service icons
+[ ] Test site speed with Lighthouse
+
+DEPLOYMENT
+[ ] Verify domain configuration
+[ ] Test site on multiple browsers
+[ ] Test mobile responsiveness
+[ ] Monitor site after deployment
+
+FUTURE FEATURES
+[ ] Add testimonials section
+[ ] Add gallery of landscaping work
+[ ] Add service area map
+[ ] Add quote request form
