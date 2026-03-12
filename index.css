@@ -4,7 +4,8 @@
 
 body {
     margin: 0;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .grid-container {
@@ -58,7 +59,7 @@ body {
 /* HERO SECTION */
 .hero {
     padding: 0px;
-    margin-bottom: 15rem;
+    margin-bottom: 2rem;
 }
 
 .hero-grid {
@@ -80,8 +81,12 @@ body {
     padding: 3rem;
     clip-path: polygon(0 0, 100% 0, 100% 75%, 25% 100%, 0 75%);
 }
+.hero-card h1{
+        font-weight: 700;
+}
 .hero-card p {
     padding-bottom: 1rem;
+    font-weight: 700;
 }
 .btn {
     background-color: white;
@@ -93,6 +98,49 @@ body {
 .btn:hover {
     background-color: #577b33;
     color: white;
+}
+/* RATING SECTION */
+
+.reviews {
+    padding: 4rem 0;
+}
+
+.review-container {
+    overflow: hidden;
+    padding: 1rem 0px;
+    width: 100%;
+}
+
+.review-container h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #2f2f2f;
+}
+
+.review-track {
+    display: flex;
+    padding-left: 2rem;
+    gap: 2rem;
+    width: max-content;
+    animation: scrollReviews 30s linear infinite;
+}
+
+.review-card {
+    /* Ensuring consistent width for testimonial cards */
+    width: 280px;
+    padding: 1.5rem;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+@keyframes scrollReviews{
+    from{
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%);
+    }
 }
 
 /* SERVICES SECTION */

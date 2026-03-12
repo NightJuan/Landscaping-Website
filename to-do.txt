@@ -4,20 +4,20 @@ FC Landscaping Website – Development To-Do List
 
 HEADER
 [ ] Add separate HTML pages (Services, Contact, About)
-[ ] Ensure navigation links point to correct pages
+[x] Ensure navigation links point to correct pages
 [ ] Add active page highlighting in navigation
-[ ] Optimize logo image
+[x] Optimize logo image
 [ ] Add mobile navigation / hamburger menu
 
 HERO SECTION
-[ ] Improve hero text spacing
-[ ] Optimize hero background image size
+[x] Improve hero text spacing
+[x] Optimize hero background image size
 [ ] Test clip-path design across browsers
-[ ] Ensure CTA button scrolls to contact section
+[x] Ensure CTA button scrolls to contact section
 
 SERVICES SECTION
-[ ] Confirm service icons are consistent size
-[ ] Improve card spacing for mobile
+[x] Confirm service icons are consistent size
+[x] Improve card spacing for mobile
 [ ] Add hover effect for service cards
 [ ] Consider adding more service descriptions
 
@@ -30,19 +30,19 @@ ANIMATIONS
 [ ] Test animations on mobile devices
 
 CONTACT SECTION
-[ ] Make phone number clickable (tel: link)
-[ ] Make email clickable (mailto: link)
+[x] Make phone number clickable (tel: link)
+[x] Make email clickable (mailto: link)
 [ ] Add contact form (name, email, message)
 [ ] Connect contact form to email or form service
 
 FOOTER
 [ ] Add real Facebook and Instagram links
-[ ] Ensure footer logo matches header dimensions
-[ ] Test footer responsiveness on mobile
+[x] Ensure footer logo matches header dimensions
+[x] Test footer responsiveness on mobile
 
 SEO
-[ ] Verify meta description
-[ ] Add Open Graph tags
+[x] Verify meta description
+[x] Add Open Graph tags
 [ ] Add sitemap.xml
 [ ] Add robots.txt
 [ ] Submit site to Google Search Console
@@ -53,9 +53,9 @@ PERFORMANCE
 [ ] Test site speed with Lighthouse
 
 DEPLOYMENT
-[ ] Verify domain configuration
+[x] Verify domain configuration
 [ ] Test site on multiple browsers
-[ ] Test mobile responsiveness
+[x] Test mobile responsiveness
 [ ] Monitor site after deployment
 
 FUTURE FEATURES
