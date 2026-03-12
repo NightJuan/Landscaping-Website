@@ -194,8 +194,8 @@ body {
 }
 
 .service-card img {
-    width: 52px;
-    height: 52px;
+    width: 72px;
+    height: 72px;
     object-fit: contain;
     margin-bottom: 2rem;
 }
